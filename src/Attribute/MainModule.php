@@ -35,6 +35,6 @@ class MainModule extends Route
         ?bool $stateless = null,
         ?string $env = null
     ) {
-        parent::__construct($data, $path, $name, $requirements, $options, $defaults, $host, self::METHODS, $schemes, $condition, $priority, $locale, $format, $utf8, $stateless, $env);
+        parent::__construct($path, $name, $requirements, $options, $defaults, $host, self::METHODS, $schemes, $condition, $priority, $locale, $format, $utf8, $stateless, $env);
     }
 }
